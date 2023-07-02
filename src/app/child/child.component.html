@@ -1,0 +1,28 @@
+  <p>child works</p>
+<p>
+
+  <button (click)="decreaseUnitId()" >Arttır</button>&nbsp;<span>(Subject Nesnesi Aracılığıyla Child'tan Parent'e Veri Aktarımı)</span>
+</p>
+
+<div class="d-flex mt-1 align-items-center">
+  <div
+    class="file-btn {{ textClass }}"
+    title="{{ btnTitle}}"
+    
+  >
+    <i class="{{ faIcon }}" aria-hidden="true"></i>
+  </div>
+
+  <div class="file-info ms-2">
+    <div>
+      <small
+        ><i>{{ size }}KB</i></small
+      >
+    </div>
+    <div>
+      <small
+        ><i>{{ name }}</i></small
+      >
+    </div>
+  </div>
+</div>

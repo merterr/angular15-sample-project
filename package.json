@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build_prod": "ng build --configuration production --output-path=dist/angular --named-chunks=false --output-hashing=all --source-map=false",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

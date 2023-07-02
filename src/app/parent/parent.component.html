@@ -1,0 +1,19 @@
+<p>parent works!</p>
+
+<input type="file" (change)="onFileChange($event)" />
+<hr>
+
+<h1>Angularda Parent'tan child component'e Veri Aktarımında BehaviorSubject Çözümü </h1>
+
+<app-child
+    [fileInfo]="fileInfo"
+    [btnTitle]="'UI_GORUNTULE'"
+></app-child>
+
+<hr>
+<h1>Angularda Parent'tan child component'e Veri Aktarımında Event Emitter Çözümü </h1> 
+
+<app-child1
+    [fileInfo]="fileInfo1"
+></app-child1>
+
